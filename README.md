@@ -69,12 +69,32 @@ Ready to try DeliveryProof? Here is the fastest path to see the system in action
 
 **Public Deployed URL:** `https://deliveryproofhackathon.vercel.app`
 
+**🎥 Demo Video:** [https://youtu.be/z_IU7KhAKrE](https://youtu.be/z_IU7KhAKrE)
+
+**📊 Presentation Deck:** See `DeliveryProof.pptx` in this repository.
+
+---
+
+### 🔑 Demo Accounts
+
+> Use these credentials to log in and test each role directly. Note: Sender and Receiver are the same account type — use `testc1` and `testc2` as two different companies to see both sides of the Sender ↔ Receiver handshake.
+
+| Role | Email | Password |
+|---|---|---|
+| Reviewer | `reviewer@gmail.com` | `ayush@12345` |
+| Company (Sender) | `testc1@gmail.com` | `ayush@123` |
+| Company (Receiver) | `testc2@gmail.com` | `ayush@123` |
+| Driver | `testd1@gmail.com` | `ayush@123` |
+| Driver (alt) | `testd2@gmail.com` | `ayush@123` |
+
+---
+
 **Recommended Fast-Path Walkthrough:**
-1. **Log in as Company (Sender):** Use the provided company demo credentials (e.g., `testc2` / `testc2@...`). Create a new Trip.
-2. **Log in as Company (Receiver):** Use a second company account. Go to "Needs Attention", find the incoming delivery request, and Accept it.
-3. **Log in as Company (Sender):** Publish the accepted trip to the marketplace.
-4. **Log in as Driver:** Use the provided driver demo credentials. Claim the trip from the marketplace and begin the delivery workflow (recording events like Arrival, Goods Loaded, etc.).
-5. **Log in as Reviewer:** Use the reviewer credential (`ayushhalpati.2004@gmail.com`). View the Verification Queue to see how onboarding identity checks are handled completely separate from the delivery workflow.
+1. **Log in as Company (Sender)** — `testc1@gmail.com`. Create a new Trip, selecting `testc2` as the Receiver.
+2. **Log in as Company (Receiver)** — `testc2@gmail.com`. Go to "Needs Attention", find the incoming delivery request, and Accept it.
+3. **Log in as Company (Sender)** — `testc1@gmail.com`. Publish the accepted trip to the marketplace.
+4. **Log in as Driver** — `testd1@gmail.com`. Claim the trip from the marketplace and begin the delivery workflow (recording events like Arrival, Goods Loaded, etc.).
+5. **Log in as Reviewer** — `reviewer@gmail.com`. View the Verification Queue to see how onboarding identity checks are handled completely separate from the delivery workflow.
 
 ## 11. 🔄 How the System Works
 
@@ -133,7 +153,9 @@ By standardizing delivery evidence, DeliveryProof reduces the administrative ove
 
 ## 18. 🎥 Demo
 
-Please see our Devpost/Submission page for the complete live-demo video walkthrough of the DeliveryProof platform!
+**Watch the full live-demo video walkthrough:** [https://youtu.be/z_IU7KhAKrE](https://youtu.be/z_IU7KhAKrE)
+
+The video covers the problem, solution, key features, AI's role, and a live end-to-end demonstration — signup and identity verification, trip creation and receiver acceptance, driver claim and delivery execution, and the AI-generated evidence summary on completion.
 
 ## 19. 🛠️ Technology Stack
 
