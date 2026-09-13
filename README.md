@@ -71,7 +71,7 @@ Ready to try DeliveryProof? Here is the fastest path to see the system in action
 
 **🎥 Demo Video:** [https://youtu.be/z_IU7KhAKrE](https://youtu.be/z_IU7KhAKrE)
 
-**📊 Presentation Deck:** See `DeliveryProof.pptx` in this repository.
+**📊 Presentation Deck:** [DeliveryProof.pptx](./DeliveryProof.pptx) *(download and open in PowerPoint / Google Slides)*
 
 ---
 
