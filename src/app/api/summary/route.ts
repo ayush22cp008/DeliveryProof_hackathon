@@ -28,7 +28,7 @@ export async function POST(request: Request) {
       .from('trips')
       .select('id')
       .eq('driver_id', driver.id)
-      .in('status', ['active', 'claimed', 'in_progress', 'completed']);
+      .eq('status', 'completed');
       
     if (tripId) {
       query = query.eq('id', tripId);
@@ -39,7 +39,7 @@ export async function POST(request: Request) {
     const { data: trip } = await query.single();
 
     if (!trip) {
-      return NextResponse.json({ error: 'No active trip found.' }, { status: 400 });
+      return NextResponse.json({ error: 'No completed trip found.' }, { status: 400 });
     }
 
     const { data: events } = await supabaseServer
